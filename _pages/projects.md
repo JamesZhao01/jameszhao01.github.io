@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: 
+description: A list of some of my cool projects
 nav: true
 nav_order: 2
 display_categories: [Projects]
@@ -12,6 +12,11 @@ horizontal: false
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
+  <p>
+    Due to UC San Diego's <a href="https://academicintegrity.ucsd.edu/process/policy.html"> 
+    university-wide </a> and <a href="https://academicintegrity.ucsd.edu/forms/form-integrity-agreement-cse.html"> 
+    Computer Science and Engieering department</a> Academic Integrity Policy, code and references can be provided upon request.
+  </p>
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
@@ -36,10 +41,15 @@ horizontal: false
   {% endfor %}
 
 {%- else -%}
+
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+
+{%- assign sorted_projects = site.projects | sort: "importance" -%}
+
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal -%}
+
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}

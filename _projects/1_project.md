@@ -3,9 +3,9 @@ layout: page
 title: project 1
 description: a project with a background image
 img: assets/img/12.jpg
-importance: 1
-category: Project
-related_publications: einstein1956investigations, einstein1950meaning
+importance: 999
+category: test
+related_publications: 
 ---
 
 Every project has a beautiful feature showcase page.
