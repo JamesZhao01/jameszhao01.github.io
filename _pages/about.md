@@ -22,6 +22,6 @@ social: true # includes social icons at the bottom of the page
 
 I am a passionate Software Engineer with experience in both Full-Stack Web
 Development and Machine Learning. I completed my undergraduate in Computer
-Science at the University of California, San Diego (Spring 2023) and I a student
-pursuing Masters in Machine Learning at Carnegie Mellon University, starting
-Fall 2023. Check out some of my projects!
+Science at the University of California, San Diego (Spring 2023) and I am
+currently pursuing a Masters in Machine Learning at Carnegie Mellon University,
+starting Fall 2023. Check out some of my projects!
